@@ -9,7 +9,7 @@ samogloski = "aąeęiuoó"
 imie
 
 for litera in imie:
-    if litera not in samogloski:
+    if litera.lower() not in samogloski:
         informacja += litera
 
 print("Imię twojego ojca bez samogłosek to: ", informacja)
